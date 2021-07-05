@@ -1,0 +1,125 @@
+body,html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color:#eae8e870;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+.middleHeading{
+    display: flex;
+}
+.card{
+    display: flex;
+    margin-left: 70px;
+}
+.card1{
+    width: 173px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:white;
+    margin: 22px 7px;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.card1  img{
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    margin-top: 12px;
+
+}
+.sideHeader{
+width: 100px;
+    
+}
+.unorderlist{
+    margin-top: 10px;
+}
+.list{
+    margin: 10px 0px;
+    padding: 21px 2px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+   color: black;
+
+}
+.sideHeader h1{
+    margin-left: 41px;
+    padding: 5px;
+        
+    }
+    .sideHeader h2{
+        display: none;
+    }
+    .header{
+        margin-top: 54px;
+        padding: 9px;
+        font-size: 2rem;
+        margin-left: 100px;
+        width: 540px;
+    }
+    .content1{
+        margin-top: 115px;
+        padding: 14px;
+        height:200px;
+        width: 200px;
+        margin-left: 82px;
+    }
+    .content2{
+        display: none;
+    }
+    .btn{
+        background-color: #fa0909de;
+        padding: 13px 42px;
+        margin: 2px;
+        border-radius: 22px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .content1 hr{
+        width: 25%;
+        border: 1px solid red;
+        position: relative;
+        right: 71px;
+    }
+    .unorderlist s{
+        text-decoration: line-through;color:red;
+    }
+    .list span{
+        color:black;
+    }
+   
+      .container2{
+          display: none;
+      }
+      #onright{
+          display: none;
+      }
+
+      @media(min-width: 1024px){
+        .content1 {
+            margin-top: 115px;
+            padding: 14px;
+            height: 200px;
+            width: 200px;
+            margin-left: 0px;
+        }
+        .header {
+            margin-top: 54px;
+            padding: 9px;
+            font-size: 1.8rem;
+            margin-left: 80px;
+            width: 500px;
+        }
+      }
